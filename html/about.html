@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - BCA Portal</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <nav>
+    <div class="nav-container">
+        <a href="../index.html" class="logo">BCA_PORTAL</a>
+        <div class="nav-links">
+            <a href="../index.html">Home</a>
+            <a href="syllabus.html">Syllabus</a>
+            <a href="pyq.html">PYQ</a>
+            <a href="faculty.html">Faculty</a>
+            <a href="calculator.html">CGPA</a>
+            <a href="about.html" style="color: var(--accent);">About</a>
+        </div>
+    </div>
+    </nav>
+
+    <header class="hero">
+        <h1>The Creators</h1>
+        <p>Architects of the academic portal. Modular, secure, and precise.</p>
+    </header>
+
+    <main class="container">
+        <!-- This container is where the JS will inject creator rows -->
+        <div id="creators-list-container" class="faculty-list">
+        </div>
+    </main>
+
+    <!-- Load Data -->
+    <script src="../assets/creators_data.js"></script>
+
+    <!-- Load Main Controller -->
+    <script src="../js/main.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faculty - BCA Portal</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <a href="../index.html" class="logo">BCA_PORTAL</a>
+            <div class="nav-links">
+                <a href="../index.html">Home</a>
+                <a href="syllabus.html">Syllabus</a>
+                <a href="pyq.html">PYQ</a>
+                <a href="faculty.html" style="color: var(--accent);">Faculty</a>
+                <a href="calculator.html">CGPA</a>
+                <a href="about.html">About</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <h1>Department Faculty</h1>
+        <p>Profiles of the HOD and teaching staff.</p>
+    </header>
+
+    <main class="container">
+        <!-- JS injects content here -->
+        <div id="faculty-list-container" class="faculty-list"></div>
+    </main>
+
+    <!-- CRITICAL: Ensure the name is exactly faculty_data.js with an underscore -->
+    <script src="../assets/faculty_data.js"></script>
+    <script src="../js/main.js"></script>
+</body>
+</html>

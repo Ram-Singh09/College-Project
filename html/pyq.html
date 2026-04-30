@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PYQ Vault - BCA Portal</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <nav>
+    <div class="nav-container">
+        <a href="../index.html" class="logo">BCA_PORTAL</a>
+        <div class="nav-links">
+            <a href="../index.html">Home</a>
+            <a href="syllabus.html">Syllabus</a>
+            <a href="pyq.html" style="color: var(--accent);">PYQ</a>
+            <a href="faculty.html">Faculty</a>
+            <a href="calculator.html">CGPA</a>
+            <a href="about.html">About</a>
+        </div>
+    </div>
+</nav>
+
+    <header class="hero">
+        <h1>PYQ Vault</h1>
+        <p>Previous year question papers archive. Modular, fast, and direct.</p>
+    </header>
+
+    <main class="container">
+        <div class="controls">
+            <select id="course-select">
+                <option value="BCA">BCA</option>
+                <option value="MSc">MSc</option>
+            </select>
+            <select id="semester-select"></select>
+        </div>
+
+        <div id="pyq-results" class="grid">
+            <!-- JS will inject question paper cards here -->
+        </div>
+    </main>
+
+    <script src="../assets/pyq_data.js"></script>
+    <script src="../js/main.js"></script>
+
+</body>
+</html>

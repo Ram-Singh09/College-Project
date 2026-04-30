@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Syllabus Explorer - BCA Portal</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>  
+    <nav>
+    <div class="nav-container">
+        <a href="../index.html" class="logo">BCA_PORTAL</a>
+        <div class="nav-links">
+            <a href="../index.html">Home</a>
+            <a href="syllabus.html" style="color: var(--accent);">Syllabus</a>
+            <a href="pyq.html">PYQ</a>
+            <a href="faculty.html">Faculty</a>
+            <a href="calculator.html">CGPA</a>
+            <a href="about.html">About</a>
+        </div>
+    </div>
+</nav>
+
+    <header class="hero">
+        <h1>Syllabus Explorer</h1>
+        <p>Select your course and semester to view detailed subject breakdowns.</p>
+    </header>
+
+    <main class="container">
+        <div class="controls">
+            <select id="course-select">
+                <option value="BCA">BCA (Bachelor of Computer Applications)</option>
+                <option value="MSc">MSc (Master of Science)</option>
+            </select>
+            
+            <select id="semester-select"></select>
+        </div>
+
+        <div id="syllabus-results">
+            <!-- Handled by your working main.js -->
+        </div>
+    </main>
+
+    <!-- Scripts strictly load the working data you provided -->
+    <script src="../assets/syllabus_data.js"></script>
+    <script src="../js/main.js"></script>
+
+</body>
+</html>
