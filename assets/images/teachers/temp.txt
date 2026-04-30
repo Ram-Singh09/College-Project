@@ -1,0 +1,2 @@
+put teachers photo here nad name shall match name in js data file 
+no space onlu '_' and all lower case even if js name as capital letters
